@@ -9,8 +9,8 @@ router.get('/api/notes',(req,res)=>{
 
 router.post('/api/notes',(req,res)=>{
     req.body.id = notes.length.toString();
-    let note = createNote(req.body, notes);
-    res.json(note);
+    createNote(req.body, notes);
+    res.json(req.body);
 });
 
 router.delete('/api/notes/:id', (req,res)=>{
