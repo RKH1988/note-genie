@@ -1,15 +1,14 @@
 {
-    "notes": [
-        {
-            "title":"Greetings! Note Genie at your service.",
-            "text":"Add as many notes as you like.",
-            "id":"0"
-        },
-        {
-            "title":"Three Wishes?",
-            "text":"Sorry I'm not that kind of genie.",
-            "id":"1"
-        }
-    ]
+  "notes": [
+    {
+      "title": "Greetings! Note Genie at your service.",
+      "text": "Add as many notes as you like.",
+      "id": "0"
+    },
+    {
+      "title": "Three Wishes?",
+      "text": "Sorry I'm not that kind of genie.",
+      "id": "1"
+    }
+  ]
 }
-    
