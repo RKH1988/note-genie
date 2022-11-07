@@ -4,6 +4,7 @@ const {createNote, deleteNote } = require('../../lib/notes.js');
 
 router.get('/api/notes',(req,res)=>{
     let results = notes;
+    console.log(results);
     res.json(results);
 });
 
