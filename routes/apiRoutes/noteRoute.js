@@ -4,14 +4,14 @@ const {createNote, deleteNote } = require('../../lib/notes.js');
 
 router.get('/api/notes',(req,res)=>{
     let results = notes;
-    console.log(results);
+    console.log(req.query);
     res.json(results);
 });
 
 router.post('/api/notes',(req,res)=>{
     req.body.id = notes.length.toString();
-    createNote(req.body, notes);
-    res.json(req.body);
+    const note = createNote(req.body, notes);
+    res.json(note);
 });
 
 router.delete('/api/notes/:id', (req,res)=>{

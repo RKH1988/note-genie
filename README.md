@@ -1,9 +1,10 @@
 # note-genie
 
 ## Description
-Application a
+Application allows user to save notes for future use, remove and edit those notes.
 
 ## Screenshot
+[Screenshot](./public/assets/screenshot.png)
 
 ## Links
 
